@@ -1,0 +1,44 @@
+name: task_cascade_manager
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # For state management
+  provider: ^6.1.1
+  
+  # For local storage
+  shared_preferences: ^2.2.2
+  
+  # For date formatting
+  intl: ^0.19.0
+
+  # For generating unique IDs
+  uuid: ^4.3.3
+
+  cupertino_icons: ^1.0.2
+  file_picker: ^8.0.0+1
+  excel: ^4.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.0"
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo.png" # Path to your logo image
+  # Optional: For adaptive icons on Android 8.0+
+  adaptive_icon_background: "#ffffff" # A color or image asset
