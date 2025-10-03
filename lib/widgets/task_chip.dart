@@ -39,7 +39,7 @@ class TaskChip extends StatelessWidget {
               style: TextStyle(
                 decoration: task.isCompleted ? TextDecoration.lineThrough : TextDecoration.none,
                 color: task.isCompleted ? Colors.white70 : Colors.white,
-                fontSize: 14,
+                fontSize: 21,
               ),
               overflow: TextOverflow.ellipsis,
             ),
