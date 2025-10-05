@@ -76,7 +76,7 @@ You need to have the Flutter SDK installed on your machine. For instructions, se
 Installation & Running
 Clone the repository:
 
-git clone [https://github.com/your-username/flutter-task-manager.git](https://github.com/your-username/flutter-task-manager.git)
+git clone [https://github.com/krish-vj/Tasks.git](https://github.com/krish-vj/Tasks.git)
 cd flutter-task-manager
 
 Install dependencies:
